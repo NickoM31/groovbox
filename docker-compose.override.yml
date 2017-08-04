@@ -1,0 +1,14 @@
+version: '2'
+
+#services:
+#    mysql:
+#        image: percona:5
+#        env_file:
+#            - docker/env
+#            - docker/override_env
+#        volumes:
+#            - ./docker/mysql/sql:/docker-entrypoint-initdb.d
+#        ports:
+#            - 3306:3306
+#        networks:
+#            - main

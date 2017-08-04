@@ -1,0 +1,31 @@
+version: '2'
+
+networks:
+    main:
+
+services:
+    tools:
+        build: docker/tools
+        env_file:
+            - docker/env
+        volumes:
+            - .:/var/www/html
+            - ~/.npm:/var/www/.npm
+            - ~/.composer:/var/www/.composer
+            - ~/.ssh:/var/www/.ssh
+        networks:
+            - main
+
+    php-apache:
+        build: docker/php-apache
+        env_file:
+            - docker/env
+        volumes:
+            - .:/var/www/html
+        ports:
+            - 80:80
+            - 443:443
+        networks:
+            - main
+
+
