@@ -1,4 +1,4 @@
-PROJECT_CODE=Image
+PROJECT_CODE=groovbox
 
 COMPOSE=docker-compose -p $(PROJECT_CODE)
 COMPOSE_TEST=bin/test_env.sh

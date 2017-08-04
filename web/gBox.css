@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box; }
+
+h1 {
+    text-align: center; }
+
+.blockExt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 25em;
+    width: 27em;
+    border: 0.1em solid black;
+    background-color: black; }
+
+.blockInt {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: auto;
+    height: 20em;
+    width: 22em;
+    background-color: #a3a1a1; }
+
+.ecran {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 5%;
+    height: 4em;
+    width: 21em;
+    border: 0.2em double #75D701;
+    background-color: white;
+    color: purple; }
+
+#defil {
+    position: absolute;
+    background-color: transparent;
+    float: right; }
+
+.rang1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    height: 2.5em;
+    width: 21em; }
+.rang1 .pad13 button {
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    width: 5em;
+    border: 0.2em inset black;
+    background-color: #75D701; }
+.rang1 .pad13 :hover {
+    background-color: purple; }
+.rang1 .pad14 button {
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    width: 5em;
+    border: 0.2em solid black;
+    background-color: #75D701; }
+.rang1 .pad14 :hover {
+    background-color: purple; }
+.rang1 .pad15 button {
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    width: 5em;
+    border: 0.2em solid black;
+    background-color: #75D701; }
+.rang1 .pad15 :hover {
+    background-color: purple; }
+.rang1 .pad16 button {
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    width: 5em;
+    border: 0.2em solid black;
+    background-color: #75D701; }
+.rang1 .pad16 :hover {
+    background-color: purple; }
+
+.rang2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    height: 2.5em;
+    width: 21em; }
+.rang2 .pad9 button {
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    width: 5em;
+    border: 0.2em solid black;
+    background-color: #75D701; }
+.rang2 .pad9 :hover {
+    background-color: purple; }
+.rang2 .pad10 button {
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    width: 5em;
+    border: 0.2em solid black;
+    background-color: #75D701; }
+.rang2 .pad10 :hover {
+    background-color: purple; }
+.rang2 .pad11 button {
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    width: 5em;
+    border: 0.2em solid black;
+    background-color: #75D701; }
+.rang2 .pad11 :hover {
+    background-color: purple; }
+.rang2 .pad12 button {
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    width: 5em;
+    border: 0.2em solid black;
+    background-color: #75D701; }
+.rang2 .pad12 :hover {
+    background-color: purple; }
+
+.rang3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    height: 2.5em;
+    width: 21em; }
+.rang3 .pad5 button {
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    width: 5em;
+    border: 0.2em solid black;
+    background-color: #75D701; }
+.rang3 .pad5 :hover {
+    background-color: purple; }
+.rang3 .pad6 button {
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    width: 5em;
+    border: 0.2em solid black;
+    background-color: #75D701; }
+.rang3 .pad6 :hover {
+    background-color: purple; }
+.rang3 .pad7 button {
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    width: 5em;
+    border: 0.2em solid black;
+    background-color: #75D701; }
+.rang3 .pad7 :hover {
+    background-color: purple; }
+.rang3 .pad8 button {
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    width: 5em;
+    border: 0.2em solid black;
+    background-color: #75D701; }
+.rang3 .pad8 :hover {
+    background-color: purple; }
+
+.rang4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    height: 2.5em;
+    width: 21em; }
+.rang4 .pad1 button {
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    width: 5em;
+    border: 0.2em solid black;
+    background-color: #75D701; }
+.rang4 .pad1 :hover {
+    background-color: purple; }
+.rang4 .pad2 button {
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    width: 5em;
+    border: 0.2em solid black;
+    background-color: #75D701; }
+.rang4 .pad2 :hover {
+    background-color: purple; }
+.rang4 .pad3 button {
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    width: 5em;
+    border: 0.2em solid black;
+    background-color: #75D701; }
+.rang4 .pad3 :hover {
+    background-color: purple; }
+.rang4 .pad4 button {
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    width: 5em;
+    border: 0.2em solid black;
+    background-color: #75D701; }
+.rang4 .pad4 :hover {
+    background-color: purple; }
